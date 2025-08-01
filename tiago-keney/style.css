@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    background-color: black;
+}
+
+/*---------------------------------------------portfolio---------------------------------------------*/
+
+.main{
+    width: 99.2dvw;
+    height: 200dvh;
+
+    background-color: aliceblue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    width: 99.2dvw;
+    height: 5dvh;
+
+    background-color: brown;
+
+    display: flex;
+}
+
+.redirectionPortifolio{
+    width: 50%;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.redirectionCurriculo{
+    width: 25%;
+    display: flex;
+    
+    padding-left: 25%;
+
+    align-items: center;
+
+}
+
+.person{
+    width: 50%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+.text{
+    width: 50%;
+    height: 100%;
+    background-color: blueviolet;
+}
