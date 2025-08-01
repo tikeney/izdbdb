@@ -24,7 +24,7 @@ $osd = json_decode($dadosJson, true);
         <div class="redirectionCurriculo"><a href="curriculo.php">Curriculo</a></div>
     </div>
     <div class="main">
-        
+        <div>gregd</div>
         <div class="person"></div>
         <div class="text"></div>
 
