@@ -1,6 +1,9 @@
 *{
     margin: 0;
-    background-color: black;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*---------------------------------------------portfolio---------------------------------------------*/
@@ -8,8 +11,6 @@
 .main{
     width: 99.2dvw;
     height: 200dvh;
-
-    background-color: aliceblue;
 
     display: flex;
     align-items: center;
@@ -20,9 +21,15 @@
     width: 99.2dvw;
     height: 5dvh;
 
-    background-color: brown;
-
     display: flex;
+}
+
+.redirectionHome{
+    width: 50%;
+    display: flex;
+
+    align-items: center;
+    justify-content: end;
 }
 
 .redirectionPortifolio{
@@ -34,23 +41,19 @@
 }
 
 .redirectionCurriculo{
-    width: 25%;
+    width: 50%;
     display: flex;
-    
-    padding-left: 25%;
 
     align-items: center;
-
+    justify-content: start;
 }
 
 .person{
     width: 50%;
     height: 100%;
-    background-color: aquamarine;
 }
 
 .text{
     width: 50%;
     height: 100%;
-    background-color: blueviolet;
 }
