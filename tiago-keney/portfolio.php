@@ -24,15 +24,26 @@ $osd = json_decode($dadosJson, true);
 </head>
 
 <body>
-    <div class="header">
-        <div class="redirectionHome"><a href="portifolio.php">Home</a></div>
-        <div class="redirectionPortifolio"><a href="portifolio.php">Portfolio</a></div>
-        <div class="redirectionCurriculo"><a href="curriculo.php">Curriculo</a></div>
+    <div class="portfolio-header">
+        <div class="portfolio-nav-links">
+            <div class="portfolio-redirectionHome"><a href="portifolio.php">Home</a></div>
+            <div class="portfolio-redirectionPortifolio"><a href="portifolio.php">Portfolio</a></div>
+            <div class="portfolio-redirectionCurriculo"><a href="curriculo.php">Curriculo</a></div>
+        </div>
     </div>
-    <div class="main">
-        <div class="person"></div>
-        <div class="text"></div>
-
+    <div class="portfolio-main">
+        <div class="portfolio-apresentacao">
+            <div class="portfolio-texto-apresentacao">
+                <h1>
+                    Lorem ipsum dolor <span>sit amet</span>.
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet. Vel galisum debitis id accusantium
+                    unde ut voluptatum delectus cum fugit molestiaequi cumque earum
+                    aut mollitia dolores. Et suscipit dolores quo ipsum dolorum.
+                </p>
+            </div>
+        </div>
     </div>
 </body>
 
