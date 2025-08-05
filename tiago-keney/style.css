@@ -1,112 +1,109 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
 
-body{
-    font-family: 'Montserrat', sans-serif;
-    color: aliceblue;
-    background-color: rgb(24, 24, 24);
+body {
+  font-family: "Montserrat", sans-serif;
+  color: aliceblue;
+  background-color: rgb(24, 24, 24);
 }
-a{
-    text-decoration: none;
-    color: rgb(91, 91, 91);
+a {
+  text-decoration: none;
+  color: rgb(91, 91, 91);
+  transition: border-bottom color 1s;
+}
+
+a:hover {
+  border-bottom: 1px solid red;
+  color: red;
 }
 
 /*---------------------------------------------portfolio---------------------------------------------*/
-.portfolio-header{
-    width: 99.2dvw;
-    height: 5dvh;
+.portfolio-header {
+  width: 99.2dvw;
+  height: 5dvh;
 
-    margin-top: 2dvh;
+  position: absolute;
+  z-index: 2;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin-top: 2dvh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.portfolio-nav-links{
-    width: 17dvw;
-    height: 5dvh;
+.portfolio-nav-links {
+  width: 17dvw;
+  height: 5dvh;
 
-    background-color: rgb(34, 34, 34);
+  background-color: rgb(24, 24, 24);
 
-    border: 2px solid;
-    border-radius: 50px;
-    border-color: rgb(71, 71, 71);
+  border: 2px solid;
+  border-radius: 50px;
+  border-color: rgb(51, 51, 51);
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.portfolio-redirectionHome{
-    width: 5dvw;
-    display: flex;
+.portfolio-redirection {
+  width: 5dvw;
+  display: flex;
 
-    margin: 0 5px;
+  margin: 0 5px;
 
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 
-    font-size: 1rem;
+  font-size: 1rem;
+
+  transition: width 1s;
+  transition: font-size 1s;
 }
 
-.portfolio-redirectionPortifolio{
-    width: 5dvw;
-    display: flex;
+.portfolio-main {
+  width: 100%;
+  height: 100dvh;
 
-    margin: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    align-items: center;
-    justify-content: center;
-
-    font-size: 1rem;
+  background-image: url(images/wp4729468.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.portfolio-redirectionCurriculo{
-    width: 5dvw;
-    display: flex;
-
-    margin: 0 5px;
-
-    align-items: center;
-    justify-content: center;
-
-    font-size: 1rem;
+.portfolio-apresentacao {
+  width: 100%;
+  height: 100%;
 }
 
-.portfolio-main{
-    width: 99.2dvw;
-    height: 100%;
+.portfolio-texto-apresentacao {
+  width: 38%;
+  height: 100px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  text-align: justify;
+
+  margin: 15% 20%;
 }
 
-.portfolio-apresentacao{
-    width: 100%;
-    height: 100%;
+.portfolio-texto-apresentacao h1 {
+  font-size: 3rem;
 }
 
-.portfolio-texto-apresentacao{
-    width: 38%;
-    height: 100px;
-
-    text-align: justify;
-
-    margin: 10% 20%;
+.portfolio-texto-apresentacao h1 span {
+  color: red;
 }
 
-.portfolio-texto-apresentacao h1{
-    font-size: 3rem;
+.portfolio-apresentacao {
+  width: 100%;
+  height: 100%;
 }
 
-.portfolio-texto-apresentacao h1 span{
-    color: red;
-}
-
-.portfolio-apresentacao{
-    width: 100%;
-    height: 100%;
+.portfolio-projetos {
+  width: 100%;
+  height: 50dvh;
 }
