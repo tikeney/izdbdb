@@ -70,6 +70,10 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  
+  background-image: url(images/wp4729468.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .portfolio-apresentacao {
