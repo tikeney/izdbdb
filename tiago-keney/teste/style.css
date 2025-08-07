@@ -1,56 +1,28 @@
 body {
-    margin: 0;
-    overflow: hidden;
-    background-color: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
- }
- 
- 
- .space-background-center {
-    position: relative;
-    width: 100%;
-    height: 100%;
- }
- 
- 
- .star {
-    position: absolute;
-    background-color: white;
-    width: 2px;
-    height: 2px;
-    border-radius: 50%;
-    opacity: 0; /* Inicialmente invisível */
-    animation: twinkle-out 2s linear infinite; /* Animação principal */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Centraliza */
- }
- 
- 
- /* Crie algumas variações de delay para um efeito mais natural */
- .space-background-center .star:nth-child(1) { animation-delay: 0s; }
- .space-background-center .star:nth-child(2) { animation-delay: 0.2s; }
- .space-background-center .star:nth-child(3) { animation-delay: 0.4s; }
- .space-background-center .star:nth-child(4) { animation-delay: 0.6s; }
- .space-background-center .star:nth-child(5) { animation-delay: 0.8s; }
- .space-background-center .star:nth-child(6) { animation-delay: 1s; }
- .space-background-center .star:nth-child(7) { animation-delay: 1.2s; }
- .space-background-center .star:nth-child(8) { animation-delay: 1.4s; }
- .space-background-center .star:nth-child(9) { animation-delay: 1.6s; }
- .space-background-center .star:nth-child(10) { animation-delay: 1.8s; }
- /* Adicione mais estilos nth-child conforme o número de estrelas */
- 
- 
- @keyframes twinkle-out {
-    0% {
-        opacity: 1;
-        transform: translate(-50%, -50%) scale(1);
-    }
-    100% {
-        opacity: 0;
-        transform: translate(calc(-50% + 50vw), calc(-50% + 50vh)) scale(0.2); /* Move para o canto inferior direito como exemplo */
-    }
- }
+   margin: 0;
+   font-family: sans-serif;
+   overflow-x: hidden;
+}
+
+/* Estilo para a barra aquamarine */
+#barraAquamarine {
+   position: fixed; /* Fixa a barra na tela, para que ela não se mova com o scroll */
+   bottom: 0;      /* Alinha a barra com a parte de baixo da janela */
+   left: 0;
+   width: 100%;
+   height: 100px; /* Altura inicial da barra. Você pode ajustar isso */
+   background-color: #7fffd4; /* Cor aquamarine. Você pode usar o código de cor exato que quiser */
+   z-index: 1000; /* Garante que a barra fique na frente de outros elementos */
+   transition: transform 0.5s ease-in-out; /* Esta é a mágica! Define uma transição suave para a propriedade 'transform' */
+}
+
+/* Classe CSS que será adicionada com JavaScript */
+.barra-sobe {
+   transform: translateY(-50vh); /* Move a barra para cima, fora da tela. '100vh' é 100% da altura da viewport */
+}
+
+/* Opcional: Estilo para o botão */
+#botaoPortfolio {
+   cursor: pointer;
+   padding: 10px 20px;
+}

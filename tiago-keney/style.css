@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
 }
@@ -5,17 +9,22 @@
 body {
   font-family: "Montserrat", sans-serif;
   color: aliceblue;
-  background-color: rgb(24, 24, 24);
+  /*background-color: rgb(24, 24, 24);*/
+  background-color: aquamarine;
 }
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
 a {
   text-decoration: none;
   color: rgb(91, 91, 91);
-  transition: border-bottom color 1s;
+  transition: color 1s;
 }
 
-a:hover {
-  border-bottom: 1px solid red;
-  color: red;
+a:hover{
+  color: white;
 }
 
 /*---------------------------------------------portfolio---------------------------------------------*/
@@ -23,8 +32,8 @@ a:hover {
   width: 99.2dvw;
   height: 5dvh;
 
-  position: absolute;
-  z-index: 2;
+  position: fixed;
+  z-index: 4;
 
   margin-top: 2dvh;
 
@@ -34,7 +43,7 @@ a:hover {
 }
 
 .portfolio-nav-links {
-  width: 17dvw;
+  width: 13dvw;
   height: 5dvh;
 
   background-color: rgb(24, 24, 24);
@@ -50,7 +59,10 @@ a:hover {
 
 .portfolio-redirection {
   width: 5dvw;
+  height: 4.2dvh;
   display: flex;
+
+  border-radius: 25px ;
 
   margin: 0 5px;
 
@@ -59,18 +71,23 @@ a:hover {
 
   font-size: 1rem;
 
-  transition: width 1s;
-  transition: font-size 1s;
+  transition: background-color 1s;
+}
+
+.portfolio-redirection:hover {
+  background-color: #36BCF7FF;
 }
 
 .portfolio-main {
   width: 100%;
-  height: 110dvh;
+  height: 100dvh;
+
+  position: fixed;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   background-image: url(images/wp4729468.webp);
   background-repeat: no-repeat;
   background-size: cover;
@@ -79,33 +96,48 @@ a:hover {
 .portfolio-apresentacao {
   width: 100%;
   height: 100%;
+
+  position: absolute;
+  z-index: 2;
 }
 
-.portfolio-texto-apresentacao {
+.portfolio-apresentacao-texto {
   width: 38%;
   height: 100px;
 
   text-align: justify;
 
-  margin: 15% 20%;
+  margin: 13% 15%;
 }
 
-.portfolio-texto-apresentacao h1 {
+.portfolio-apresentacao-texto h1 {
   font-size: 3rem;
 }
 
-.portfolio-texto-apresentacao h1 span {
-  color: red;
-}
-
-.portfolio-apresentacao {
-  width: 100%;
-  height: 100%;
+.portfolio-apresentacao-texto h1 span {
+  color: aliceblue;
 }
 
 .portfolio-projetos {
-  width: 100%;
-  height: 50dvh;
+  width: 90%;
+  height: 90dvh;
+
+  margin-left: 5%;
+  margin-right: 5%;
+
+  font-size: 1.5rem;
+
+  display: flex;
+
+  justify-content: center;
+
+  top: 96dvh;
+
+  border-radius: 50px 50px 0px 0px;
+  border-color: rgb(91, 91, 91);
+  border-width: 2px;
+
+  background-color: aquamarine;
 
   position: absolute;
   z-index: 2;
