@@ -1,0 +1,284 @@
+@font-face {
+    font-family: Inter Regular;
+    src: url("../Fontes/Inter-VariableFont_opsz\,wght.ttf");
+}
+
+@font-face {
+    font-family: Inter Tight;
+    src: url("../Fontes/InterTight-Black.ttf");
+}
+
+body {
+    background-color: #101014;
+    font-family: Inter Regular;
+    font-size: x-small;
+    margin: 0px;
+}
+
+.steam {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+}
+
+.bordaJogos {
+    width: 89%;
+    height: 340px;
+    background-color: #18181f;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+hr {
+    border-color: white;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.bordaHeader {
+    background-color: #18181f;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.containerlogo {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    width: 70%;
+    padding-left: 44%;
+    padding-right: 35%;
+}
+
+.logo {
+    width: 110px;
+}
+
+.navegação {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+hr {
+    display: flex;
+    height: 100%;
+    margin-left: 15%;
+}
+
+.gameCreation {
+    color: white;;
+}
+.gameCreation:hover {
+ color: lightgray;
+}
+.cadastro {
+    color: white;
+}
+.cadastro:hover {
+ color: lightgray;
+}
+
+.gameCreation {
+    color: white;
+    position: relative;
+    margin-left: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.gameCreation:hover {
+ color: lightgray;
+}
+.cadastro {
+    color: white;
+    position: relative;
+    margin-left: 30px;
+    margin-right: 250%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.cadastro:hover {
+ color: lightgray;
+}
+
+hr {
+    width: 30%;
+    opacity: 15%;
+}
+
+.jogos {
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right:10px;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+
+.jogos:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #18181f;
+    margin-top: 10px;
+    padding: 1%;
+}
+
+.tituloRedes {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    font-family: Inter Tight;
+}
+
+.RedesSociais {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+}
+
+section {
+    margin-bottom: 3%;
+}
+
+.linhafooter {
+    border: 1px solid white;
+}
+
+.divicons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.iconsredes {
+    width: 3%;
+}
+
+.topicos {
+    display: flex;
+}
+
+.titlestopicos {
+    width: 33%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.titlestopicos h3 {
+    font-family: Inter Tight;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.titlestopicos span {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #DCDCDC;
+    font-size: 1rem;
+    padding: 6px;
+}
+
+.titlestopicos span:hover {
+    color: white;
+}
+
+.lojas {
+    width: 33%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.lojas h3 {
+    font-family: Inter Tight;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.lojas span {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #DCDCDC;
+    font-size: 1rem;
+    padding: 6px;
+}
+
+.lojas span:hover {
+    color: white;
+}
+
+.empresas {
+    width: 33%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.empresas h3 {
+    font-family: Inter Tight;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.empresas span {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #DCDCDC;
+    font-size: 1rem;
+    padding: 6px;
+}
+
+.empresas span:hover {
+    color: white;
+}
+
+.direitos {
+    display: flex;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.direitos p {
+    color: white;
+    font-size: 1rem;
+}
+
+.cincodireitos {
+    margin-top: 2rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.cincodireitos span {
+    padding-right: 15px;
+    color: #DCDCDC;
+}
+
+.cincodireitos span:hover {
+    color: white;
+}

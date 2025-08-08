@@ -1,0 +1,374 @@
+@font-face {
+    font-family: Inter Regular;
+    src: url("../Fontes/Inter-VariableFont_opsz\,wght.ttf");
+}
+
+@font-face {
+    font-family: Inter Tight;
+    src: url("../Fontes/InterTight-Black.ttf");
+}
+
+body {
+    background-color: #101014;
+    font-family: Inter Regular;
+    font-size: x-small;
+    margin: 0px;
+}
+
+hr {
+    border-color: white;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.bordaHeader {
+    background-color: #18181f;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+
+}
+
+.containerlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    padding-left: 44%;
+    padding-right: 35%;
+}
+
+.logo {
+    width: 110px;
+}
+
+.navegação {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+hr {
+    display: flex;
+    height: 100%;
+    margin-left: 15%;
+}
+
+.gameCreation {
+    color: white;
+    ;
+}
+
+.gameCreation:hover {
+    color: lightgray;
+}
+
+.cadastro {
+    color: white;
+}
+
+.cadastro:hover {
+    color: lightgray;
+}
+
+.gameCreation {
+    color: white;
+    position: relative;
+    margin-left: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.gameCreation:hover {
+    color: lightgray;
+}
+
+.cadastro {
+    color: white;
+    position: relative;
+    margin-left: 30px;
+    margin-right: 250%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.cadastro:hover {
+    color: lightgray;
+}
+
+hr {
+    width: 30%;
+    opacity: 15%;
+}
+
+.buttonShare {
+    color: white;
+    position: relative;
+    margin-left: auto;
+    margin-right: 320px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.buttonShare:hover {
+    color: lightgray;
+}
+
+.container {
+    display: flex;
+}
+
+.divFormulario {
+    width: 50%;
+    height: 50rem;
+    margin: 5px;
+}
+
+.nameGame {
+    border-radius: 10px;
+    background-color: #18181f;
+    height: 5%;
+    margin-bottom: 10px;
+}
+
+.gameName {
+    width: 97%;
+    height: 35%;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid #18181f;
+    background-color: #18181f;
+    color: white;
+    font-family: Inter Regular;
+    overflow: hidden;
+    resize: none;
+    text-align: center;
+}
+
+.putDescription {
+    border-radius: 10px;
+    background-color: #18181f;
+    width: 100%;
+    height: 45%;
+    margin-bottom: 20px;
+}
+
+.gameDescription {
+    width: 97%;
+    height: 96%;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid #18181f;
+    background-color: #18181f;
+    color: white;
+    font-family: Inter Regular;
+    resize: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.upload-container {
+    width: 100%;
+    height: 100%;
+}
+
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 47%;
+    cursor: pointer;
+    background-color: #18181f;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.custom-file-upload:hover {
+    background-color: #3d46b2;
+}
+
+.divImagens {
+    width: 50%;
+    height: 50rem;
+    margin: 5px;
+}
+
+.exemplo {
+    border-radius: 10px;
+    height: 50%;
+    margin-bottom: 10px;
+}
+
+.imagemtrailer {
+    border-radius: 10px;
+    width: 99%;
+    height: 99%;
+}
+
+
+footer {
+    background-color: #18181f;
+    margin-top: 10px;
+    padding: 1%;
+}
+
+.tituloRedes {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    font-family: Inter Tight;
+}
+
+.RedesSociais {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+}
+
+section {
+    margin-bottom: 3%;
+}
+
+.linhafooter {
+    border: 1px solid white;
+}
+
+.divicons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.iconsredes {
+    width: 3%;
+}
+
+.topicos {
+    display: flex;
+}
+
+.titlestopicos {
+    width: 33%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.titlestopicos h3 {
+    font-family: Inter Tight;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.titlestopicos span {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #DCDCDC;
+    font-size: 1rem;
+    padding: 6px;
+}
+
+.titlestopicos span:hover {
+    color: white;
+}
+
+.lojas {
+    width: 33%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.lojas h3 {
+    font-family: Inter Tight;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.lojas span {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #DCDCDC;
+    font-size: 1rem;
+    padding: 6px;
+}
+
+.lojas span:hover {
+    color: white;
+}
+
+.empresas {
+    width: 33%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.empresas h3 {
+    font-family: Inter Tight;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.empresas span {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #DCDCDC;
+    font-size: 1rem;
+    padding: 6px;
+}
+
+.empresas span:hover {
+    color: white;
+}
+
+.direitos {
+    display: flex;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.direitos p {
+    color: white;
+    font-size: 1rem;
+}
+
+.cincodireitos {
+    margin-top: 2rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.cincodireitos span {
+    padding-right: 15px;
+    color: #DCDCDC;
+}
+
+.cincodireitos span:hover {
+    color: white;
+}

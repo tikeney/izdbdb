@@ -1,0 +1,311 @@
+@font-face {
+    font-family: Inter Regular;
+    src: url("../Fontes/Inter-VariableFont_opsz\,wght.ttf");
+}
+
+@font-face {
+    font-family: Inter Tight;
+    src: url("../Fontes/InterTight-Black.ttf");
+}
+
+body {
+    background-color: #101014;
+    font-family: Inter Regular;
+    margin: 0px;
+}
+
+.bordaHeader {
+    background-color: #18181f;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    font-size: x-small;
+}
+
+.containerlogo {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    width: 70%;
+    padding-left: 44%;
+    padding-right: 35%;
+}
+
+.logo {
+    width: 110px;
+}
+
+.navegação {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+hr {
+    display: flex;
+    height: 100%;
+    margin-left: 15%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.gameCreation {
+    color: white;;
+}
+.gameCreation:hover {
+ color: lightgray;
+}
+.cadastro {
+    color: white;
+}
+.cadastro:hover {
+ color: lightgray;
+}
+
+.gameCreation {
+    color: white;
+    position: relative;
+    margin-left: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.gameCreation:hover {
+ color: lightgray;
+}
+.cadastro {
+    color: white;
+    position: relative;
+    margin-left: 30px;
+    margin-right: 250%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.cadastro:hover {
+ color: lightgray;
+}
+
+hr {
+    width: 30%;
+    opacity: 15%;
+}
+
+.principal {
+    width: 100%;
+    height: auto;
+}
+
+.sobreNos {
+    background-color: blueviolet;
+    width: 80%;
+    height: 100%;
+}
+
+.sobrehype {
+    background-color: #18181f;
+    width: auto;
+    height: auto;
+    margin: 3%;
+    display: flex;
+    border-radius: 35px;
+}
+
+.missaohype{
+    background-color: #18181f;
+    width: auto;
+    height: auto;
+    margin: 3%;
+    display: flex;
+    border-radius: 35px;
+}
+
+.valoreshype{
+    background-color: #18181f;
+    width: auto;
+    height: auto;
+    margin: 3%;
+    display: flex;
+    border-radius: 35px;
+}
+
+.finalhype{
+    background-color: #18181f;
+    width: auto;
+    height: auto;
+    margin: 3%;
+    display: flex;
+    border-radius: 35px;
+}
+
+.texthype {
+    font-size: x-large;
+    color: #A2A2A3;
+    margin-left: 5%;
+}
+
+.titulohype{
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+.imghype {
+    align-items: center; 
+    width: 50%; 
+    text-align: center;
+}
+
+hype {
+    color: aliceblue;
+}
+
+footer {
+    background-color: #18181f;
+    margin-top: 10px;
+    padding: 1%;
+}
+
+.tituloRedes {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    font-family: Inter Tight;
+}
+
+.RedesSociais {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+}
+
+section {
+    margin-bottom: 3%;
+}
+
+.linhafooter {
+    border: 1px solid white;
+}
+
+.divicons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.iconsredes {
+    width: 3%;
+}
+
+.topicos {
+    display: flex;
+}
+
+.titlestopicos {
+    width: 33%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.titlestopicos h3 {
+    font-family: Inter Tight;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.titlestopicos span {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #DCDCDC;
+    font-size: 1rem;
+    padding: 6px;
+}
+
+.titlestopicos span:hover {
+    color: white;
+}
+
+.lojas {
+    width: 33%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.lojas h3 {
+    font-family: Inter Tight;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.lojas span {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #DCDCDC;
+    font-size: 1rem;
+    padding: 6px;
+}
+
+.lojas span:hover {
+    color: white;
+}
+
+.empresas {
+    width: 33%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.empresas h3 {
+    font-family: Inter Tight;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.empresas span {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #DCDCDC;
+    font-size: 1rem;
+    padding: 6px;
+}
+
+.empresas span:hover {
+    color: white;
+}
+
+.direitos {
+    display: flex;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.direitos p {
+    color: white;
+    font-size: 1rem;
+}
+
+.cincodireitos {
+    margin-top: 2rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.cincodireitos span {
+    padding-right: 15px;
+    color: #DCDCDC;
+}
+
+.cincodireitos span:hover {
+    color: white;
+}

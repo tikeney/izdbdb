@@ -1,0 +1,171 @@
+@font-face {
+    font-family: Inter Regular;
+    src: url("../Fontes/Inter-VariableFont_opsz\,wght.ttf");
+}
+
+body {
+    background-color: #101014;
+    font-family: Inter Regular;
+    margin: 0px;
+    color: white;
+    padding: 10px;
+}
+
+.divPrincipal {
+    background-color: #101014;
+    display: flex;
+    width: auto;
+    height: 97vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.divEntrar {
+    background-color: #18181C;
+    width: 500px;
+    height: 800px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #38383f;
+}
+
+.divDentro {
+    width: 90%;
+    height: 90%;
+    background-color: #18181C;
+}
+
+.divlogo {
+    width: 90%;
+    height: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #18181C;
+    text-align: center;
+}
+
+.Entrar {
+    width: 90%;
+    height: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    padding-top: 1%;
+    background-color: #18181C;
+}
+
+.Email {
+    width: 90%;
+    height: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #18181C;
+    font-size: x-small;
+    color: #A2A2A3;
+}
+
+.password {
+    width: 90%;
+    height: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    background-color: #18181C;
+    font-size: x-small;
+    color: #A2A2A3;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.gameName {
+    width: 89.5%;
+    height: 9%;
+    border-radius: 15px;
+    border: 1px solid #38383f;
+    background-color: #28282f;
+    color: white;
+    font-size: large;
+    overflow: hidden;
+    resize: none;
+    padding: 5%;
+}
+
+.logo {
+    width: 30%;
+}
+
+.linhas {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.linhas::before {
+    width: 100%;
+    content: "";
+    align-self: center;
+    border: 1px solid #303033;
+}
+
+.linhas::after {
+    width: 100%;
+    content: "";
+    align-self: center;
+    border: 1px solid #303033;
+}
+
+
+.digitado { 
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    color: #A2A2A3;
+    width: 110%;
+}
+
+.divbutton {
+    width: 90%;
+    height: 9%;
+    margin-left: 5%;
+    padding-top: 1%;
+    margin-right: 5%;
+    background-color: rgb(77, 182, 247);
+    color: #18181C;
+    font-size: small;
+    text-align: center;
+    border-radius: 15px;    
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.divbutton:hover {
+    background-color: lightskyblue;
+    color: lightgray;
+}
+
+.alternativo {
+    padding: 10px;
+    justify-content: center;
+}
+
+.alternativoEmail {
+    display: flex;
+    justify-content: center;
+}
+
+viv:hover {
+    transform: scale(1.05);
+}
+
+p {
+    margin-bottom: 7px;
+    margin-top: 8px;
+}

@@ -1,0 +1,390 @@
+@font-face {
+    font-family: Inter Regular;
+    src: url("../Fontes/Inter-VariableFont_opsz\,wght.ttf");
+}
+
+@font-face {
+    font-family: Inter Tight;
+    src: url("../Fontes/InterTight-Black.ttf");
+}
+
+body {
+    background-color: #101014;
+    font-family: Inter Regular;
+    margin: 0%;
+}
+
+hr {
+    border-color: white;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.bordaHeader {
+    background-color: #18181f;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    font-size: x-small;
+}
+
+.containerlogo {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    width: 70%;
+    padding-left: 44%;
+    padding-right: 35%;
+}
+
+.logo {
+    width: 110px;
+}
+
+.navegação {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+hr {
+    display: flex;
+    height: 100%;
+    margin-left: 15%;
+}
+
+.gameCreation {
+    color: white;;
+}
+.gameCreation:hover {
+ color: lightgray;
+}
+.cadastro {
+    color: white;
+}
+.cadastro:hover {
+ color: lightgray;
+}
+
+.gameCreation {
+    color: white;
+    position: relative;
+    margin-left: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.gameCreation:hover {
+ color: lightgray;
+}
+.cadastro {
+    color: white;
+    position: relative;
+    margin-left: 30px;
+    margin-right: 250%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.cadastro:hover {
+ color: lightgray;
+}
+
+hr {
+    width: 30%;
+    opacity: 15%;
+}
+
+.titulo {
+    color: white;
+    padding-left: 10px;
+    font-family: Inter Tight;
+    font-size: 125%;
+}
+
+.espacamento {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+}
+
+.detalhes {
+    display: flex;
+}
+
+video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.esquerda {
+    width: 75%;
+}
+
+.direita {
+    width: 25%;
+}
+
+.sinopse {
+    font-size: larger;
+    padding: 1%;
+    color: white;
+}
+
+.espacamento2 {
+    width: 4%;
+}
+
+.divLogo {
+    height: 195px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logoGame {
+    width: 75%;
+}
+
+.divClass {
+    display: flex;
+    height: 67px;
+    border: 1px solid #343437;
+    border-radius: 10px;
+}
+
+.Class {
+    padding: 10px;
+}
+
+.texto {
+    padding: 10px;
+    color: white;
+    font-size: 100%;
+}
+
+.texto h6 {
+    margin-top: 10px;
+    font-size: 75%;
+    color: #636366;
+}
+
+.preço {
+    color: white;
+    margin-top: 20px;
+}
+
+.ações {
+    height: auto;
+}
+
+.açãop {
+    color: black;
+    border-radius: 10px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 2.5%;
+    background-color: #26BBFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ação {
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    margin-bottom: 2.5%;
+    background-color: #343437;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.açãop:hover {
+    background-color: #61CDFF;
+}
+
+.ação:hover {
+    background-color: #636366;
+}
+
+.coluna {
+    height: auto;
+    margin-top: 20px;
+}
+
+.tópicos {
+    padding: 10px 5px;
+    border-bottom: 1px solid #636366;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tópicos b {
+    color: #929294;
+}
+
+.tópicos span {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer {
+    background-color: #18181f;
+    margin-top: 10px;
+    padding: 1%;
+}
+
+.tituloRedes {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    font-family: Inter Tight;
+}
+
+.RedesSociais {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+}
+
+section {
+    margin-bottom: 3%;
+}
+
+.linhafooter {
+    border: 1px solid white;
+}
+
+.divicons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.iconsredes {
+    width: 3%;
+}
+
+.topicos {
+    display: flex;
+}
+
+.titlestopicos {
+    width: 33%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.titlestopicos h3 {
+    font-family: Inter Tight;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.titlestopicos span {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #DCDCDC;
+    font-size: 1rem;
+    padding: 6px;
+}
+
+.titlestopicos span:hover {
+    color: white;
+}
+
+.lojas {
+    width: 33%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.lojas h3 {
+    font-family: Inter Tight;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.lojas span {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #DCDCDC;
+    font-size: 1rem;
+    padding: 6px;
+}
+
+.lojas span:hover {
+    color: white;
+}
+
+.empresas {
+    width: 33%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.empresas h3 {
+    font-family: Inter Tight;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.empresas span {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #DCDCDC;
+    font-size: 1rem;
+    padding: 6px;
+}
+
+.empresas span:hover {
+    color: white;
+}
+
+.direitos {
+    display: flex;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.direitos p {
+    color: white;
+    font-size: 1rem;
+}
+
+.cincodireitos {
+    margin-top: 2rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.cincodireitos span {
+    padding-right: 15px;
+    color: #DCDCDC;
+}
+
+.cincodireitos span:hover {
+    color: white;
+}
